@@ -1,7 +1,7 @@
 variable "length" {
   description = "Length of the random string"
   type        = number
-  default     = 10
+  default     = 12
 }
 
 variable "special" {
