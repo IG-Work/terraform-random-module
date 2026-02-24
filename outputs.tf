@@ -1,5 +1,5 @@
-output "random_string" {
-  value = random_string.example.result
+output "random_strings" {
+  value = random_string.example[*].result
 }
 
 output "random_string1" {
