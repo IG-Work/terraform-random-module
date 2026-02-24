@@ -1,4 +1,5 @@
 resource "random_string" "example" {
+  count = 1000
   length  = var.length
   special = var.special
 }
