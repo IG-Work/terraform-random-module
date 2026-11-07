@@ -1,7 +1,7 @@
 
 
 resource "random_string" "example" {
-  count = 6
+  count = 7
   length  = var.length
   special = var.special
 }
